@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: black;
+    color:#f3f3f398;
+    font-family: "Montserrat Variable", -apple-system, system-ui, sans-serif;
+}
+a{
+    text-decoration: none;
+    color:#f3f3f398;
+    font-size: 20px;
+    
+}
+a:hover{
+   color:orange;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px  0px 150px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    
+}
+#home{
+    display:flex;
+    margin-left:5% ;
+    margin-right: 5%;
+
+}
+#home p{
+    font-size: 25px;
+}
+#home h1{
+    font-size:70px;
+    color:white;
+}
+.home-content{
+    height: 50vh;
+    width: 50%;
+    /* background-color: orange; */
+    font-size: 20px;
+    padding-top:50px;
+    padding-left: 20px;
+    margin: 50px 20px 0px 20px;
+    
+}
+
+.linkedin-logo{
+    height: 30px;
+    width: 30px;
+    margin-top:50px;
+    margin-left: 10px;
+}
+.linkedin-logo:hover{
+    scale: 1.5;
+    
+}
+
+.github-logo{
+    height: 30px;
+    width: 30px;
+    margin-top:50px;
+    margin-left: 20px;
+}
+.github-logo:hover{
+    scale: 1.5;
+    
+}
+.email-logo{
+    height: 55px;
+    width: 55px;
+    margin-left: 12px;
+    margin-bottom:-12px;
+  
+}
+.email-logo:hover{
+    scale: 1.5;
+    
+}
+#skills{
+    /* background-color: pink; */
+    height:100px;
+    margin:35px 10%;
+    display:flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+.skills-content{
+    display: flex;
+    gap:30px;
+    width:max-content;
+    align-items: center;
+    padding-right: 45px;
+    flex-shrink: 0;
+    animation: move 10s linear infinite;
+}
+
+@keyframes move{
+   from{
+          transform:translateX(0);
+      }
+   to{
+        transform: translateX(-100%);
+   }
+}
+.skills-content img{
+    height:35px;
+    width:35px;
+    
+
+}
+.skills-content p{
+    font-size: 20px;
+    margin-top:5px;
+     
+}
+
+h2{
+    margin-top: 20vh;
+    margin-left: 8%;
+    color:white;
+}
+.edu{
+    margin-left: 8%;
+    display:flex;
+    
+}
+.edu .edu1{
+    font-weight:bold;
+    color:white;
+    margin-top: 30px;
+    width:85%;
+
+    
+}
+.edu2{
+    float:right;
+    margin-top:30px ;
+  
+}
+
+
+.training p{
+    margin-left: 8%;
+    font-weight: bold;
+    
+}
+.exp{
+    display: flex;
+    
+}
+.exp .exp1{
+    width:72%;
+    margin-top: 30px;
+    margin-left:8%;
+    font-weight: bold;
+}
+.exp .exp2{
+   float:right;
+   margin-top: 30px;
+}
+.exp3{
+    width:72%;
+    margin-top: 30px;
+    margin-left:8%;
+    font-weight: bold;
+}
+.exp4{
+    float:right;
+   margin-top: 30px;
+}
+
+.gif{
+    margin:30px 7% ;
+    width:85%;
+    height:100vh;
+}
+#contact{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+button{
+    background-color:#f3f3f398;
+    color:white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border:none;
+
+}
+.contact-info{
+    display:flex;
+    justify-content: center;
+    
+}
+.contact-info img{
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+
+   
+}
+.contact-info .email-logo{
+    height: 90px;
+    width: 80px;
+    margin-top: 30px;
+    
+}
